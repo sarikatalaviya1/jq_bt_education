@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .main_header {
+            background-image: url("assets/hero/hero2.png");
+            height: 50vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            position: relative;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .send {
+            border: 1px solid purple;
+            color: purple;
+            background-color: white;
+        }
+
+        .send:hover {
+            background-color: purple;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loader-main">
+        <div id="loader">
+        </div>
+        <img src="./assets/logo/loder.png" alt="">
+    </div>
+
+
+    <!-- Header -->
+    <div class="main_header img-fluid">
+        <header class="page-header">
+            <nav class=" w-100 d-flex align-items-center justify-content-lg-between">
+                <div class="logo w-50 ps-5">
+                    <img src="https://themewagon.github.io/courses/assets/img/logo/logo.png" alt="">
+                </div>
+                <div class="navbar w-50 d-none d-lg-block">
+                    <ul
+                        class="w-75 d-flex justify-content-around list-unstyled text-white align-items-center pt-2 ps-2">
+                        <li><a href="index.html" class="text-white text-decoration-none fw-bold ps-3">Home</a></li>
+                        <li><a href="courses.html" class="text-white text-decoration-none fw-bold ps-3">Courses</a></li>
+                        <li><a href="about.html" class="text-white text-decoration-none fw-bold ps-3">About</a></li>
+                        <li class="blogg"><a href="#" class="text-white text-decoration-none fw-bold ps-3">Blog</a>
+                            <ul class="blog_menu list-unstyled">
+                                <li class="text-dark">Blog</li>
+                                <li class="text-dark">Blog Details</li>
+                                <li class="text-dark">Element</li>
+
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" class="text-white text-decoration-none fw-bold ps-3">Contact</a></li>
+
+                        <li class=""><a href="#"
+                                class="py-3 px-5 border-0 text-decoration-none text-white ms-5 join">Join</a></li>
+
+                        <li><a href="login.html"
+                                class="py-3 px-5 border-1 border ms-2 login text-decoration-none text-white">LogIn</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu w-75 d-lg-none d-flex justify-content-end me-5">
+                    <i class="fa-solid fa-bars menu_open text-white fs-5"></i>
+                </div>
+            </nav>
+            <div id="menu_bar" class="d-lg-none">
+                <ul class="list-unstyled d-flex flex-column m-3 p-5">
+                    <li><a class="text-decoration-none text-white" href="index.html">Home</a></li>
+                    <li><a class="text-decoration-none text-white" href="courses.html">Courses</a></li>
+                    <li><a class="text-decoration-none text-white" href="about.html">About</a></li>
+                    <li class="blogg"><a class="text-decoration-none text-white" href="#">Blog</a>
+                        <ul class="blog_menu list-unstyled">
+                            <li class="text-dark">Blog</li>
+                            <li class="text-dark">Blog Details</li>
+                            <li class="text-dark">Element</li>
+
+                        </ul>
+                    </li>
+                    <li><a class="text-decoration-none text-white" href="contact.html">Contact</a></li>
+                    <li class="d-flex"><a href="#" class="py-2 px-4  text-decoration-none text-white join mb-3">Join</a>
+                    </li>
+                    <li><a href="login.html"
+                            class="py-2 px-3 border-1 border login text-decoration-none text-white mt-4">LogIn</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+        <div class="hero_sec text-white mt-5">
+            <h1 class="mb-4 display-4 fw-bold">Our Contacts</h1>
+            <nav style="--bs-breadcrumb-divider: '|';">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item active text-white">Courses</li>
+                </ol>
+            </nav>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <!-- map -->
+    <div class="container-xxl mt-5 pt-5">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29370.761108820483!2d72.65020872841764!3d23.04780490623155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86d53c2ed683%3A0x161958a4f45e809a!2sNikol%2C%20Ahmedabad%2C%20Gujarat%20380038!5e0!3m2!1sen!2sin!4v1717395982184!5m2!1sen!2sin"
+            width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+
+    <!-- form -->
+
+    <div class="container-xxl my-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-primary">Get in Touch</h2>
+            </div>
+            <div class="col-xl-8">
+                <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                    novalidate="novalidate">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
+                                    placeholder=" Enter Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="ps-2 py-3 my-3 form-control valid" name="name" id="name" type="text"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+                                    placeholder="Enter your name">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="ps-2 py-3 my-3 form-control valid" name="email" id="email" type="email"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
+                                    placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input class="ps-2 py-3 my-3 form-control" name="subject" id="subject" type="text"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
+                                    placeholder="Enter Subject">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="px-5 py-3 send">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-3 offset-lg-1 mt-5">
+                <div class="d-flex">
+                    <span class="contact-info__icon"><i class="mt-2 me-4 fs-4 fa-solid fa-house"></i></span>
+                    <div class="media-body">
+                        <h6>Buttonwood, California.</h6>
+                        <p>Rosemead, CA 91770</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <span class="contact-info__icon"><i
+                            class="mt-2 me-4 fs-4 fa-solid fa-tablet-screen-button"></i></span>
+                    <div class="media-body">
+                        <h6>+1 253 565 2365</h6>
+                        <p>Mon to Fri 9am to 6pm</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <span class="contact-info__icon"><i class="mt-2 me-4 fs-4 fa-solid fa-envelope"></i></span>
+                    <div class="media-body">
+                        <h6>support@colorlib.com</h6>
+                        <p>Send us your query anytime!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer container-fluid pt-5 ">
+        <div class="text-white d-flex justify-content-evenly flex-wrap ">
+
+            <div class="">
+                <div class="m-5">
+                    <img src="https://themewagon.github.io/courses/assets/img/logo/logo2_footer.png" alt="">
+                    <p class="text-white lh-lg mt-5 ">The automated process starts as soon as your clothes go into the
+                        machine.</p>
+                </div>
+
+
+                <div class="text-white mt-4 icon d-flex m-5 row">
+                    <div class="col-12 col-sm-3">
+
+                        <i class="fa-brands fa-twitter "></i>
+                    </div>
+                    <div class="col-3col-12 col-sm-3 ms-4">
+                        <i class="fa-brands fa-facebook-f "></i>
+
+                    </div>
+                    <div class=" col-12 col-sm-3 ms-4">
+
+                        <i class="fa-brands fa-pinterest-p "></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="solution ">
+                <p class="h5">Our Solutions</p>
+                <ul class="list-unstyled">
+                    <li class="py-1">Design & creatives</li>
+                    <li class="py-1">Telecommunication</li>
+                    <li class="py-1">Restaurant</li>
+                    <li class="py-1">Programming</li>
+                    <li class="py-1">Architecture</li>
+                </ul>
+            </div>
+
+            <div class="support ">
+                <p class="h5">Support</p>
+                <ul class="list-unstyled">
+                    <li class="py-1">Design & creatives</li>
+                    <li class="py-1">Telecommunication</li>
+                    <li class="py-1">Restaurant</li>
+                    <li class="py-1">Programming</li>
+                    <li class="py-1">Architecture</li>
+                </ul>
+            </div>
+            <div class="company ">
+                <p class="h6">Company</p>
+                <ul class="list-unstyled">
+                    <li class="py-1">Design & creatives</li>
+                    <li class="py-1">Telecommunication</li>
+                    <li class="py-1">Restaurant</li>
+                    <li class="py-1">Programming</li>
+                    <li class="py-1">Architecture</li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="w-75 text-center h5 py-5 text-white">
+                <p>Copyright ©2024 All rights reserved | This template is made with by Colorlib</p>
+            </div>
+            <div class="w-25 text-white">
+                <div class="back-to-top"><i class="fa-solid fa-turn-up"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // header
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 300) {
+                header.classList.add(toggleClass);
+
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
+
+
+        $(document).ready(function () {
+            $(".menu_open").click(function () {
+                $("#menu_bar").slideToggle("slow");
+            });
+        });
+
+    </script>
+
+    <script>
+        document.onreadystatechange = function () {
+            var state = document.readyState;
+            if (state == "interactive") {
+                document.getElementById("mainbody").style.visibility = "hidden";
+            } else if (state == "complete") {
+                setTimeout(function () {
+                    document.getElementById("interactive");
+                    document.getElementById("loader-main").style.visibility = "hidden";
+                    document.getElementById("mainbody").style.visibility = "visible";
+                }, 500);
+            }
+        };
+
+    </script>
+
+</body>
+
+</html>
